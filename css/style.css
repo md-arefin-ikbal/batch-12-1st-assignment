@@ -16,14 +16,7 @@ body{
 }
 header{
     background-image: url("../Assets/Hero-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.nav{
-    padding: 50px;
-    width: 1145px;
-    height: 151px;
+    background-size: contain;
 }
 nav ul{
     display: flex;
@@ -31,18 +24,20 @@ nav ul{
     align-items: center;
 }
 nav ul li{
-    margin: 0 250px;
+    justify-content: space-between;
+    padding: 0 323px 0 323px;  
+    margin-top: 50px;
 }
 nav ul li a{
     font-size: 34px;
     color: #4E47FF;
     font-weight: 900;
     font-family: "Inter", sans-serif;
-
 }
 nav ul li button{
     width: 132px;
     height: 48px;
+    font-weight: 700;
     font-size: 16px;
     font-family: "Raleway", sans-serif;
     color: #FFFFFF;
@@ -55,6 +50,7 @@ nav ul li button{
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 158px;
 }
 .banner h1{
     font-size: 65px;
@@ -78,4 +74,6 @@ nav ul li button{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 37px;
+    margin-bottom: 200px;
 }
