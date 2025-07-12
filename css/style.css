@@ -295,8 +295,65 @@ main {
     color: #868686;
     font-family: "Inter", sans-serif;
 }
-.reviewer-date{
+
+.reviewer-date {
     color: #bebebe;
     font-family: "Inter", sans-serif;
     opacity: 50%;
+}
+
+.ready-to-focus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-bottom: 71px;
+}
+
+.ready-to-focus-header {
+    margin-top: 71px;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+    padding-bottom: 21px;
+}
+
+.ready-to-focus-image img {
+    margin-bottom: 71px;
+    border-radius: 48px;
+}
+
+.ready-to-focus-paragraph {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    padding-bottom: 21px;
+}
+
+.ready-to-focus-button {
+    padding-bottom: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ready-to-focus-button button {
+    width: 195px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
