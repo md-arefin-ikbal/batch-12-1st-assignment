@@ -132,3 +132,50 @@ main{
     overflow: hidden;
     border-radius: 20%;
 }
+.productive-card{
+    background-color: rgba(78, 71, 255, 10%);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.productive-card-title h1{
+    color: #252432;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.productive-card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-bottom: 50px;
+}
+.productive-stat-number{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.productive-stat-label{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
