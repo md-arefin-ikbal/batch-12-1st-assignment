@@ -357,3 +357,79 @@ main {
     align-items: center;
     display: flex;
 }
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 106px;
+    margin-right: 106px;
+}
+
+.newsletter-header h1 {
+    font-family: "Raleway", sans-serif;
+    color: #000;
+    font-size: 97px;
+    font-weight: 700;
+    width: 528px;
+    height: 232px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 232px;
+}
+
+.newsletter-form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #000000;
+}
+
+input {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    opacity: 70%;
+    padding: 20px 32px 20px 32px;
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: 2px solid #EDD6D6;
+}
+
+textarea {
+    width: 497px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #EDD6D6;
+    padding: 20px 32px 20px 32px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    opacity: 70%;
+}
+button[type="submit"] {
+    width: 566px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: none;
+}
